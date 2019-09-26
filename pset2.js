@@ -8,6 +8,40 @@ In this problem, you will be downloading some files from online, then creating a
 
 3. Achieve the following structure ONLY using command line:
 
+//Downloaded zip
+//Unziped PCNWLab-Command-Line-master.zip
+cd Downloads
+mv PCNWLab-Command-Line-master ../Desktop/
+cd ..
+cd Desktop
+cd PCNWLab-Command-Line-master/
+mv stuff pset2
+mkdir assets
+cd assets
+mkdir images
+mkdir memes
+mkdir src
+mv amazon.jpg assets/
+mv hello.html assets/
+mv twitter.png assets/
+mv meme.jpg assets/
+mv google.jpg assets/
+mv app.js assets/
+mv foo.js assets/
+mv facebook.png assets/
+cd assets
+mv twitter.png images/
+mv facebook.png images/
+mv google.jpg images/
+mv amazon.jpg images/
+mv meme.jpg memes/
+code .
+//changed "SOME_CLASS" to "Full Stack: Nights & Weekends". Saved it.
+
+
+
+
+
 ~/Desktop/pset2
     /assets
         /images
